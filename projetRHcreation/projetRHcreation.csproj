@@ -51,6 +51,12 @@
     <Compile Include="frmConnexion.Designer.cs">
       <DependentUpon>frmConnexion.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmDetailSalarie.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDetailSalarie.Designer.cs">
+      <DependentUpon>frmDetailSalarie.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmListeCollabo.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -65,6 +71,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="frmDetailSalarie.resx">
+      <DependentUpon>frmDetailSalarie.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmListeCollabo.resx">
       <DependentUpon>frmListeCollabo.cs</DependentUpon>
     </EmbeddedResource>
