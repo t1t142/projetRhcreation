@@ -29,6 +29,12 @@
         private void InitializeComponent()
         {
             this.grdListe = new System.Windows.Forms.DataGridView();
+            this.Service = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Nom = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Prénom = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Contrat = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Qualification = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Dates = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.lblRecherche = new System.Windows.Forms.Label();
             this.txtbRecherche = new System.Windows.Forms.TextBox();
             this.btnRechercher = new System.Windows.Forms.Button();
@@ -36,12 +42,6 @@
             this.btnAjouter = new System.Windows.Forms.Button();
             this.btnModifier = new System.Windows.Forms.Button();
             this.btnAnnuler = new System.Windows.Forms.Button();
-            this.Service = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Nom = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Prénom = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Contrat = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Qualification = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Dates = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.label1 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.grdListe)).BeginInit();
             this.SuspendLayout();
@@ -62,6 +62,42 @@
             this.grdListe.Size = new System.Drawing.Size(861, 248);
             this.grdListe.TabIndex = 0;
             this.grdListe.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.grdListe_CellContentClick);
+            // 
+            // Service
+            // 
+            this.Service.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.Service.HeaderText = "Service";
+            this.Service.Name = "Service";
+            // 
+            // Nom
+            // 
+            this.Nom.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.Nom.HeaderText = "Nom";
+            this.Nom.Name = "Nom";
+            // 
+            // Prénom
+            // 
+            this.Prénom.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.Prénom.HeaderText = "Prénom";
+            this.Prénom.Name = "Prénom";
+            // 
+            // Contrat
+            // 
+            this.Contrat.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.Contrat.HeaderText = "Contrat";
+            this.Contrat.Name = "Contrat";
+            // 
+            // Qualification
+            // 
+            this.Qualification.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.Qualification.HeaderText = "Qualification";
+            this.Qualification.Name = "Qualification";
+            // 
+            // Dates
+            // 
+            this.Dates.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.Dates.HeaderText = "Dates";
+            this.Dates.Name = "Dates";
             // 
             // lblRecherche
             // 
@@ -123,42 +159,6 @@
             this.btnAnnuler.TabIndex = 7;
             this.btnAnnuler.Text = "Annuler";
             this.btnAnnuler.UseVisualStyleBackColor = true;
-            // 
-            // Service
-            // 
-            this.Service.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.Service.HeaderText = "Service";
-            this.Service.Name = "Service";
-            // 
-            // Nom
-            // 
-            this.Nom.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.Nom.HeaderText = "Nom";
-            this.Nom.Name = "Nom";
-            // 
-            // Prénom
-            // 
-            this.Prénom.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.Prénom.HeaderText = "Prénom";
-            this.Prénom.Name = "Prénom";
-            // 
-            // Contrat
-            // 
-            this.Contrat.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.Contrat.HeaderText = "Contrat";
-            this.Contrat.Name = "Contrat";
-            // 
-            // Qualification
-            // 
-            this.Qualification.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.Qualification.HeaderText = "Qualification";
-            this.Qualification.Name = "Qualification";
-            // 
-            // Dates
-            // 
-            this.Dates.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.Dates.HeaderText = "Dates";
-            this.Dates.Name = "Dates";
             // 
             // label1
             // 
