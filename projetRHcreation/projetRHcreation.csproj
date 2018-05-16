@@ -51,6 +51,12 @@
     <Compile Include="EcranPrincipal.Designer.cs">
       <DependentUpon>EcranPrincipal.cs</DependentUpon>
     </Compile>
+    <Compile Include="FenetreDeConnexion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FenetreDeConnexion.Designer.cs">
+      <DependentUpon>FenetreDeConnexion.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmConnexion.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -103,6 +109,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="EcranPrincipal.resx">
       <DependentUpon>EcranPrincipal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FenetreDeConnexion.resx">
+      <DependentUpon>FenetreDeConnexion.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmContrat.resx">
       <DependentUpon>frmContrat.cs</DependentUpon>
