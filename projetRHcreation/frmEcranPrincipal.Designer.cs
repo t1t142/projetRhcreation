@@ -90,12 +90,14 @@
             this.ajouterCollaborateurToolStripMenuItem.Name = "ajouterCollaborateurToolStripMenuItem";
             this.ajouterCollaborateurToolStripMenuItem.Size = new System.Drawing.Size(197, 22);
             this.ajouterCollaborateurToolStripMenuItem.Text = "&Ajouter collaborateur";
+            this.ajouterCollaborateurToolStripMenuItem.Click += new System.EventHandler(this.ajouterCollaborateurToolStripMenuItem_Click);
             // 
             // listeDesCollaborateursToolStripMenuItem
             // 
             this.listeDesCollaborateursToolStripMenuItem.Name = "listeDesCollaborateursToolStripMenuItem";
             this.listeDesCollaborateursToolStripMenuItem.Size = new System.Drawing.Size(197, 22);
             this.listeDesCollaborateursToolStripMenuItem.Text = "&Liste des collaborateurs";
+            this.listeDesCollaborateursToolStripMenuItem.Click += new System.EventHandler(this.listeDesCollaborateursToolStripMenuItem_Click);
             // 
             // affichageToolStripMenuItem
             // 
@@ -110,6 +112,7 @@
             this.listeDesCollaborateursToolStripMenuItem1.Name = "listeDesCollaborateursToolStripMenuItem1";
             this.listeDesCollaborateursToolStripMenuItem1.Size = new System.Drawing.Size(197, 22);
             this.listeDesCollaborateursToolStripMenuItem1.Text = "&Liste des collaborateurs";
+            this.listeDesCollaborateursToolStripMenuItem1.Click += new System.EventHandler(this.listeDesCollaborateursToolStripMenuItem1_Click);
             // 
             // adminToolStripMenuItem
             // 
@@ -122,7 +125,7 @@
             // droitDaccèsToolStripMenuItem
             // 
             this.droitDaccèsToolStripMenuItem.Name = "droitDaccèsToolStripMenuItem";
-            this.droitDaccèsToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.droitDaccèsToolStripMenuItem.Size = new System.Drawing.Size(142, 22);
             this.droitDaccèsToolStripMenuItem.Text = "&Droit d\'accès";
             // 
             // frmEcranPrincipal

@@ -21,5 +21,19 @@ namespace projetRHcreation
         {
 
         }
+
+        private void btnModifier_Click(object sender, EventArgs e)
+        {
+            frmDetailSalarie frmDetail = new frmDetailSalarie();
+            // afficher le form détail en modal
+            frmDetail.ShowDialog();
+        }
+
+        private void btnAjouter_Click(object sender, EventArgs e)
+        {
+            frmNouveauCollabCDD frmDetail = new frmNouveauCollabCDD();
+            // afficher le form détail en modal
+            frmDetail.ShowDialog();
+        }
     }
 }

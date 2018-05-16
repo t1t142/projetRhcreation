@@ -33,25 +33,40 @@
             this.btnAjoutContrat = new System.Windows.Forms.Button();
             this.btnOK = new System.Windows.Forms.Button();
             this.btnAnnuler = new System.Windows.Forms.Button();
+            this.dataGridView2 = new System.Windows.Forms.DataGridView();
+            this.groupBox1.SuspendLayout();
+            this.groupBox2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
             this.SuspendLayout();
+            // 
+            // groupBox1
+            // 
+            this.groupBox1.Location = new System.Drawing.Point(70, 62);
+            // 
+            // groupBox2
+            // 
+            this.groupBox2.Location = new System.Drawing.Point(2, 341);
+            this.groupBox2.Size = new System.Drawing.Size(62, 179);
             // 
             // dataGridView1
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(100, 300);
+            this.dataGridView1.Location = new System.Drawing.Point(31, 11);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(639, 195);
+            this.dataGridView1.Size = new System.Drawing.Size(669, 161);
             this.dataGridView1.TabIndex = 3;
             // 
             // btnEditer
             // 
-            this.btnEditer.Location = new System.Drawing.Point(12, 439);
+            this.btnEditer.Location = new System.Drawing.Point(-1, 88);
             this.btnEditer.Name = "btnEditer";
             this.btnEditer.Size = new System.Drawing.Size(65, 26);
             this.btnEditer.TabIndex = 4;
             this.btnEditer.Text = "&Editer";
             this.btnEditer.UseVisualStyleBackColor = true;
+            this.btnEditer.Click += new System.EventHandler(this.btnEditer_Click);
             // 
             // btnAjoutContrat
             // 
@@ -61,6 +76,7 @@
             this.btnAjoutContrat.TabIndex = 6;
             this.btnAjoutContrat.Text = "&Ajout contrat";
             this.btnAjoutContrat.UseVisualStyleBackColor = true;
+            this.btnAjoutContrat.Click += new System.EventHandler(this.btnAjoutContrat_Click);
             // 
             // btnOK
             // 
@@ -79,23 +95,45 @@
             this.btnAnnuler.TabIndex = 8;
             this.btnAnnuler.Text = "&Annuler";
             this.btnAnnuler.UseVisualStyleBackColor = true;
+            this.btnAnnuler.Click += new System.EventHandler(this.btnAnnuler_Click);
+            // 
+            // dataGridView2
+            // 
+            this.dataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView2.Location = new System.Drawing.Point(70, 324);
+            this.dataGridView2.Name = "dataGridView2";
+            this.dataGridView2.Size = new System.Drawing.Size(669, 172);
+            this.dataGridView2.TabIndex = 17;
             // 
             // frmDetailSalarie
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.ClientSize = new System.Drawing.Size(831, 538);
+            this.Controls.Add(this.dataGridView2);
             this.Controls.Add(this.btnAnnuler);
             this.Controls.Add(this.btnOK);
             this.Controls.Add(this.btnAjoutContrat);
             this.Controls.Add(this.btnEditer);
-            this.Controls.Add(this.dataGridView1);
             this.Name = "frmDetailSalarie";
-            this.Controls.SetChildIndex(this.dataGridView1, 0);
+            this.Load += new System.EventHandler(this.frmDetailSalarie_Load);
+            this.Controls.SetChildIndex(this.label1, 0);
+            this.Controls.SetChildIndex(this.txtMatricule, 0);
+            this.Controls.SetChildIndex(this.groupBox1, 0);
+            this.Controls.SetChildIndex(this.groupBox2, 0);
+            this.Controls.SetChildIndex(this.button1, 0);
+            this.Controls.SetChildIndex(this.button2, 0);
             this.Controls.SetChildIndex(this.btnEditer, 0);
             this.Controls.SetChildIndex(this.btnAjoutContrat, 0);
             this.Controls.SetChildIndex(this.btnOK, 0);
             this.Controls.SetChildIndex(this.btnAnnuler, 0);
+            this.Controls.SetChildIndex(this.dataGridView2, 0);
+            this.groupBox1.ResumeLayout(false);
+            this.groupBox1.PerformLayout();
+            this.groupBox2.ResumeLayout(false);
+            this.groupBox2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -108,5 +146,6 @@
         private System.Windows.Forms.Button btnAjoutContrat;
         private System.Windows.Forms.Button btnOK;
         private System.Windows.Forms.Button btnAnnuler;
+        private System.Windows.Forms.DataGridView dataGridView2;
     }
 }

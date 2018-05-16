@@ -56,10 +56,11 @@
             this.Contrat,
             this.Qualification,
             this.Dates});
-            this.grdListe.Location = new System.Drawing.Point(36, 118);
+            this.grdListe.Location = new System.Drawing.Point(27, 96);
+            this.grdListe.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.grdListe.Name = "grdListe";
             this.grdListe.RowTemplate.Height = 24;
-            this.grdListe.Size = new System.Drawing.Size(861, 248);
+            this.grdListe.Size = new System.Drawing.Size(646, 202);
             this.grdListe.TabIndex = 0;
             this.grdListe.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.grdListe_CellContentClick);
             // 
@@ -102,60 +103,69 @@
             // lblRecherche
             // 
             this.lblRecherche.AutoSize = true;
-            this.lblRecherche.Location = new System.Drawing.Point(33, 48);
+            this.lblRecherche.Location = new System.Drawing.Point(25, 39);
+            this.lblRecherche.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblRecherche.Name = "lblRecherche";
-            this.lblRecherche.Size = new System.Drawing.Size(77, 17);
+            this.lblRecherche.Size = new System.Drawing.Size(60, 13);
             this.lblRecherche.TabIndex = 1;
             this.lblRecherche.Text = "Recherche";
             // 
             // txtbRecherche
             // 
-            this.txtbRecherche.Location = new System.Drawing.Point(137, 47);
+            this.txtbRecherche.Location = new System.Drawing.Point(103, 38);
+            this.txtbRecherche.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txtbRecherche.Name = "txtbRecherche";
-            this.txtbRecherche.Size = new System.Drawing.Size(526, 22);
+            this.txtbRecherche.Size = new System.Drawing.Size(396, 20);
             this.txtbRecherche.TabIndex = 2;
             // 
             // btnRechercher
             // 
-            this.btnRechercher.Location = new System.Drawing.Point(697, 45);
+            this.btnRechercher.Location = new System.Drawing.Point(523, 37);
+            this.btnRechercher.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnRechercher.Name = "btnRechercher";
-            this.btnRechercher.Size = new System.Drawing.Size(102, 27);
+            this.btnRechercher.Size = new System.Drawing.Size(76, 22);
             this.btnRechercher.TabIndex = 3;
             this.btnRechercher.Text = "&Rechercher";
             this.btnRechercher.UseVisualStyleBackColor = true;
             // 
             // btnTous
             // 
-            this.btnTous.Location = new System.Drawing.Point(822, 45);
+            this.btnTous.Location = new System.Drawing.Point(616, 37);
+            this.btnTous.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnTous.Name = "btnTous";
-            this.btnTous.Size = new System.Drawing.Size(75, 27);
+            this.btnTous.Size = new System.Drawing.Size(56, 22);
             this.btnTous.TabIndex = 4;
             this.btnTous.Text = "&Tous";
             this.btnTous.UseVisualStyleBackColor = true;
             // 
             // btnAjouter
             // 
-            this.btnAjouter.Location = new System.Drawing.Point(514, 408);
+            this.btnAjouter.Location = new System.Drawing.Point(386, 332);
+            this.btnAjouter.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnAjouter.Name = "btnAjouter";
-            this.btnAjouter.Size = new System.Drawing.Size(95, 27);
+            this.btnAjouter.Size = new System.Drawing.Size(71, 22);
             this.btnAjouter.TabIndex = 5;
             this.btnAjouter.Text = "&Ajouter";
             this.btnAjouter.UseVisualStyleBackColor = true;
+            this.btnAjouter.Click += new System.EventHandler(this.btnAjouter_Click);
             // 
             // btnModifier
             // 
-            this.btnModifier.Location = new System.Drawing.Point(637, 408);
+            this.btnModifier.Location = new System.Drawing.Point(478, 332);
+            this.btnModifier.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnModifier.Name = "btnModifier";
-            this.btnModifier.Size = new System.Drawing.Size(104, 27);
+            this.btnModifier.Size = new System.Drawing.Size(78, 22);
             this.btnModifier.TabIndex = 6;
             this.btnModifier.Text = "&Modifier";
             this.btnModifier.UseVisualStyleBackColor = true;
+            this.btnModifier.Click += new System.EventHandler(this.btnModifier_Click);
             // 
             // btnAnnuler
             // 
-            this.btnAnnuler.Location = new System.Drawing.Point(765, 408);
+            this.btnAnnuler.Location = new System.Drawing.Point(574, 332);
+            this.btnAnnuler.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnAnnuler.Name = "btnAnnuler";
-            this.btnAnnuler.Size = new System.Drawing.Size(86, 27);
+            this.btnAnnuler.Size = new System.Drawing.Size(64, 22);
             this.btnAnnuler.TabIndex = 7;
             this.btnAnnuler.Text = "Annuler";
             this.btnAnnuler.UseVisualStyleBackColor = true;
@@ -164,17 +174,18 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(56, 370);
+            this.label1.Location = new System.Drawing.Point(42, 301);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(252, 17);
+            this.label1.Size = new System.Drawing.Size(189, 13);
             this.label1.TabIndex = 8;
             this.label1.Text = "Double-clique pour consulter / modifier";
             // 
             // frmListeCollabo
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(938, 465);
+            this.ClientSize = new System.Drawing.Size(704, 378);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btnAnnuler);
             this.Controls.Add(this.btnModifier);
@@ -184,6 +195,7 @@
             this.Controls.Add(this.txtbRecherche);
             this.Controls.Add(this.lblRecherche);
             this.Controls.Add(this.grdListe);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "frmListeCollabo";
             this.Text = "Liste des collaborateurs";
             ((System.ComponentModel.ISupportInitialize)(this.grdListe)).EndInit();
