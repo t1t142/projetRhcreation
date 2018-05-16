@@ -75,6 +75,12 @@
     <Compile Include="frmNouveauCollaborateur.Designer.cs">
       <DependentUpon>frmNouveauCollaborateur.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmNouveauStagiaire.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmNouveauStagiaire.Designer.cs">
+      <DependentUpon>frmNouveauStagiaire.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="frmListeCollabo.resx">
@@ -88,6 +94,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmNouveauCollaborateur.resx">
       <DependentUpon>frmNouveauCollaborateur.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmNouveauStagiaire.resx">
+      <DependentUpon>frmNouveauStagiaire.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
