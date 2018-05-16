@@ -432,7 +432,6 @@
         protected System.Windows.Forms.ComboBox comboBox3;
         private System.Windows.Forms.Label label11;
         protected System.Windows.Forms.ComboBox comboBox4;
-        private System.Windows.Forms.Label label12;
         protected System.Windows.Forms.DateTimePicker dateTimePicker1;
         private System.Windows.Forms.Label label13;
         protected System.Windows.Forms.GroupBox groupBox1;
@@ -443,5 +442,6 @@
         protected System.Windows.Forms.Button button2;
         protected System.Windows.Forms.Button button1;
         protected System.Windows.Forms.PictureBox pictureBox1;
+        protected System.Windows.Forms.Label label12;
     }
 }

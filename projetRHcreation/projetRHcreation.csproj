@@ -57,6 +57,12 @@
     <Compile Include="frmConnexion.Designer.cs">
       <DependentUpon>frmConnexion.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmDetailSalarie.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDetailSalarie.Designer.cs">
+      <DependentUpon>frmDetailSalarie.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmListeCollabo.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -69,6 +75,12 @@
     <Compile Include="frmNouveauCollabCDD.Designer.cs">
       <DependentUpon>frmNouveauCollabCDD.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmNouveauCollabInterim.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmNouveauCollabInterim.Designer.cs">
+      <DependentUpon>frmNouveauCollabInterim.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmNouveauCollaborateur.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -80,11 +92,17 @@
     <EmbeddedResource Include="EcranPrincipal.resx">
       <DependentUpon>EcranPrincipal.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmDetailSalarie.resx">
+      <DependentUpon>frmDetailSalarie.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmListeCollabo.resx">
       <DependentUpon>frmListeCollabo.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmNouveauCollabCDD.resx">
       <DependentUpon>frmNouveauCollabCDD.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmNouveauCollabInterim.resx">
+      <DependentUpon>frmNouveauCollabInterim.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmNouveauCollaborateur.resx">
       <DependentUpon>frmNouveauCollaborateur.cs</DependentUpon>
