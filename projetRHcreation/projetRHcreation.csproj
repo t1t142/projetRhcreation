@@ -98,6 +98,9 @@
     <EmbeddedResource Include="EcranPrincipal.resx">
       <DependentUpon>EcranPrincipal.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmContrat.resx">
+      <DependentUpon>frmContrat.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmDetailSalarie.resx">
       <DependentUpon>frmDetailSalarie.cs</DependentUpon>
     </EmbeddedResource>
