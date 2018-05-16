@@ -63,6 +63,12 @@
     <Compile Include="frmNouveauCollabCDD.Designer.cs">
       <DependentUpon>frmNouveauCollabCDD.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmNouveauCollabInterim.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmNouveauCollabInterim.Designer.cs">
+      <DependentUpon>frmNouveauCollabInterim.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmNouveauCollaborateur.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -76,6 +82,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmNouveauCollabCDD.resx">
       <DependentUpon>frmNouveauCollabCDD.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmNouveauCollabInterim.resx">
+      <DependentUpon>frmNouveauCollabInterim.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmNouveauCollaborateur.resx">
       <DependentUpon>frmNouveauCollaborateur.cs</DependentUpon>
