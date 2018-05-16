@@ -45,6 +45,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="EcranPrincipal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EcranPrincipal.Designer.cs">
+      <DependentUpon>EcranPrincipal.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmConnexion.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -83,6 +89,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="EcranPrincipal.resx">
+      <DependentUpon>EcranPrincipal.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmDetailSalarie.resx">
       <DependentUpon>frmDetailSalarie.cs</DependentUpon>
     </EmbeddedResource>
