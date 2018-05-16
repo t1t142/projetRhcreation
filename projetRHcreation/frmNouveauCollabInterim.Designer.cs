@@ -42,6 +42,10 @@
             // 
             this.comboBox2.Text = "Interim";
             // 
+            // comboBox4
+            // 
+            this.comboBox4.SelectedIndexChanged += new System.EventHandler(this.comboBox4_SelectedIndexChanged);
+            // 
             // groupBox2
             // 
             this.groupBox2.Controls.Add(this.textBox7);
@@ -49,7 +53,6 @@
             this.groupBox2.Controls.Add(this.lblSalaire);
             this.groupBox2.Controls.Add(this.dateTimePicker2);
             this.groupBox2.Controls.Add(this.label17);
-            this.groupBox2.Controls.SetChildIndex(this.label12, 0);
             this.groupBox2.Controls.SetChildIndex(this.dateTimePicker1, 0);
             this.groupBox2.Controls.SetChildIndex(this.comboBox4, 0);
             this.groupBox2.Controls.SetChildIndex(this.comboBox3, 0);
@@ -61,11 +64,6 @@
             this.groupBox2.Controls.SetChildIndex(this.lblSalaire, 0);
             this.groupBox2.Controls.SetChildIndex(this.label15, 0);
             this.groupBox2.Controls.SetChildIndex(this.textBox7, 0);
-            // 
-            // label12
-            // 
-            this.label12.Size = new System.Drawing.Size(95, 13);
-            this.label12.Text = "Début de Mission :";
             // 
             // dateTimePicker2
             // 

@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace projetRHcreation
 {
-    public partial class EcranPrincipal : Form
+    public partial class frmEcranPrincipal : Form
     {
-        public EcranPrincipal()
+        public frmEcranPrincipal()
         {
             InitializeComponent();
+        }
+
+        private void EcranPrincipal_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
