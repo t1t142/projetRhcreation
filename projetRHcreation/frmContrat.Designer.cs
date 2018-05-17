@@ -34,6 +34,8 @@
             this.textBox7 = new System.Windows.Forms.TextBox();
             this.textBox8 = new System.Windows.Forms.TextBox();
             this.textBox9 = new System.Windows.Forms.TextBox();
+            this.label15 = new System.Windows.Forms.Label();
+            this.dateTimePicker2 = new System.Windows.Forms.DateTimePicker();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -78,26 +80,23 @@
             this.comboBox2.Location = new System.Drawing.Point(208, 36);
             this.comboBox2.Margin = new System.Windows.Forms.Padding(2);
             this.comboBox2.Size = new System.Drawing.Size(160, 24);
-            this.comboBox2.Visible = false;
             // 
             // comboBox3
             // 
             this.comboBox3.Location = new System.Drawing.Point(208, 134);
             this.comboBox3.Margin = new System.Windows.Forms.Padding(2);
             this.comboBox3.Size = new System.Drawing.Size(160, 24);
-            this.comboBox3.Visible = false;
             // 
             // comboBox4
             // 
             this.comboBox4.Location = new System.Drawing.Point(208, 101);
             this.comboBox4.Margin = new System.Windows.Forms.Padding(2);
             this.comboBox4.Size = new System.Drawing.Size(160, 24);
-            this.comboBox4.Visible = false;
             // 
             // dateTimePicker1
             // 
             this.dateTimePicker1.Location = new System.Drawing.Point(208, 69);
-            this.dateTimePicker1.Visible = false;
+            this.dateTimePicker1.Size = new System.Drawing.Size(229, 22);
             // 
             // groupBox1
             // 
@@ -106,31 +105,44 @@
             // 
             // groupBox2
             // 
+            this.groupBox2.Controls.Add(this.dateTimePicker2);
+            this.groupBox2.Controls.Add(this.label15);
             this.groupBox2.Location = new System.Drawing.Point(23, 29);
-            this.groupBox2.Size = new System.Drawing.Size(732, 244);
+            this.groupBox2.Size = new System.Drawing.Size(868, 244);
             this.groupBox2.Text = "Contrat";
+            this.groupBox2.Controls.SetChildIndex(this.label11, 0);
+            this.groupBox2.Controls.SetChildIndex(this.label9, 0);
+            this.groupBox2.Controls.SetChildIndex(this.label10, 0);
+            this.groupBox2.Controls.SetChildIndex(this.label14, 0);
+            this.groupBox2.Controls.SetChildIndex(this.label12, 0);
+            this.groupBox2.Controls.SetChildIndex(this.dateTimePicker1, 0);
+            this.groupBox2.Controls.SetChildIndex(this.comboBox4, 0);
+            this.groupBox2.Controls.SetChildIndex(this.comboBox3, 0);
+            this.groupBox2.Controls.SetChildIndex(this.comboBox2, 0);
+            this.groupBox2.Controls.SetChildIndex(this.comboBox5, 0);
+            this.groupBox2.Controls.SetChildIndex(this.txtSalaire, 0);
+            this.groupBox2.Controls.SetChildIndex(this.label15, 0);
+            this.groupBox2.Controls.SetChildIndex(this.dateTimePicker2, 0);
             // 
             // comboBox5
             // 
             this.comboBox5.Location = new System.Drawing.Point(208, 168);
             this.comboBox5.Margin = new System.Windows.Forms.Padding(2);
             this.comboBox5.Size = new System.Drawing.Size(160, 24);
-            this.comboBox5.Visible = false;
             // 
             // txtSalaire
             // 
             this.txtSalaire.Location = new System.Drawing.Point(208, 200);
             this.txtSalaire.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.txtSalaire.Visible = false;
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(655, 450);
+            this.button2.Location = new System.Drawing.Point(791, 453);
             this.button2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(547, 450);
+            this.button1.Location = new System.Drawing.Point(683, 453);
             this.button1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             // 
             // pictureBox1
@@ -210,10 +222,26 @@
             this.textBox9.Size = new System.Drawing.Size(233, 22);
             this.textBox9.TabIndex = 22;
             // 
+            // label15
+            // 
+            this.label15.AutoSize = true;
+            this.label15.Location = new System.Drawing.Point(469, 74);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(105, 17);
+            this.label15.TabIndex = 26;
+            this.label15.Text = "Fin de Contrat :";
+            // 
+            // dateTimePicker2
+            // 
+            this.dateTimePicker2.Location = new System.Drawing.Point(610, 69);
+            this.dateTimePicker2.Name = "dateTimePicker2";
+            this.dateTimePicker2.Size = new System.Drawing.Size(230, 22);
+            this.dateTimePicker2.TabIndex = 27;
+            // 
             // frmContrat
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
-            this.ClientSize = new System.Drawing.Size(783, 508);
+            this.ClientSize = new System.Drawing.Size(915, 508);
             this.Controls.Add(this.textBox9);
             this.Controls.Add(this.textBox8);
             this.Controls.Add(this.textBox7);
@@ -252,5 +280,7 @@
         private System.Windows.Forms.TextBox textBox7;
         private System.Windows.Forms.TextBox textBox8;
         private System.Windows.Forms.TextBox textBox9;
+        private System.Windows.Forms.DateTimePicker dateTimePicker2;
+        private System.Windows.Forms.Label label15;
     }
 }
