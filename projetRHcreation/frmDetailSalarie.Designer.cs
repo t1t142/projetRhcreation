@@ -55,6 +55,8 @@
             this.txtEcole = new System.Windows.Forms.TextBox();
             this.label20 = new System.Windows.Forms.Label();
             this.lblSalaire = new System.Windows.Forms.Label();
+            this.label21 = new System.Windows.Forms.Label();
+            this.label22 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -79,7 +81,7 @@
             this.groupBox2.Controls.Add(this.label17);
             this.groupBox2.Controls.Add(this.dateTimePicker2);
             this.groupBox2.Controls.Add(this.label18);
-            this.groupBox2.Location = new System.Drawing.Point(70, 323);
+            this.groupBox2.Location = new System.Drawing.Point(22, 193);
             this.groupBox2.Size = new System.Drawing.Size(746, 179);
             this.groupBox2.Controls.SetChildIndex(this.label12, 0);
             this.groupBox2.Controls.SetChildIndex(this.label11, 0);
@@ -104,11 +106,11 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(741, 836);
+            this.button2.Location = new System.Drawing.Point(756, 797);
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(660, 836);
+            this.button1.Location = new System.Drawing.Point(666, 797);
             // 
             // dataGridView1
             // 
@@ -130,7 +132,7 @@
             // 
             // btnAjoutContrat
             // 
-            this.btnAjoutContrat.Location = new System.Drawing.Point(562, 835);
+            this.btnAjoutContrat.Location = new System.Drawing.Point(557, 796);
             this.btnAjoutContrat.Name = "btnAjoutContrat";
             this.btnAjoutContrat.Size = new System.Drawing.Size(92, 24);
             this.btnAjoutContrat.TabIndex = 6;
@@ -147,7 +149,7 @@
             this.dcType,
             this.dcQualification,
             this.dcService});
-            this.dataGridView2.Location = new System.Drawing.Point(70, 576);
+            this.dataGridView2.Location = new System.Drawing.Point(70, 458);
             this.dataGridView2.Name = "dataGridView2";
             this.dataGridView2.Size = new System.Drawing.Size(529, 104);
             this.dataGridView2.TabIndex = 17;
@@ -180,18 +182,20 @@
             // label15
             // 
             this.label15.AutoSize = true;
-            this.label15.Location = new System.Drawing.Point(70, 560);
+            this.label15.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label15.Location = new System.Drawing.Point(67, 429);
             this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(177, 13);
+            this.label15.Size = new System.Drawing.Size(304, 20);
             this.label15.TabIndex = 18;
             this.label15.Text = "Liste des Contrats du Collaborateur :";
             // 
             // label16
             // 
             this.label16.AutoSize = true;
-            this.label16.Location = new System.Drawing.Point(74, 692);
+            this.label16.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label16.Location = new System.Drawing.Point(67, 606);
             this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(255, 13);
+            this.label16.Size = new System.Drawing.Size(436, 20);
             this.label16.TabIndex = 19;
             this.label16.Text = "Liste des projets auxquels le collaborateur intervient :";
             // 
@@ -205,7 +209,7 @@
             this.dcTacheCollaborateur,
             this.dcDebutProjet,
             this.dcFinProjet});
-            this.dataGridView3.Location = new System.Drawing.Point(70, 708);
+            this.dataGridView3.Location = new System.Drawing.Point(70, 641);
             this.dataGridView3.Name = "dataGridView3";
             this.dataGridView3.ReadOnly = true;
             this.dataGridView3.Size = new System.Drawing.Size(529, 82);
@@ -244,7 +248,7 @@
             // chkDesactive
             // 
             this.chkDesactive.AutoSize = true;
-            this.chkDesactive.Location = new System.Drawing.Point(70, 520);
+            this.chkDesactive.Location = new System.Drawing.Point(55, 388);
             this.chkDesactive.Name = "chkDesactive";
             this.chkDesactive.Size = new System.Drawing.Size(288, 17);
             this.chkDesactive.TabIndex = 26;
@@ -328,10 +332,34 @@
             this.lblSalaire.TabIndex = 35;
             this.lblSalaire.Text = "Salaire Brut Mensuel : ";
             // 
+            // label21
+            // 
+            this.label21.AutoSize = true;
+            this.label21.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label21.Location = new System.Drawing.Point(67, 574);
+            this.label21.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label21.Name = "label21";
+            this.label21.Size = new System.Drawing.Size(189, 13);
+            this.label21.TabIndex = 27;
+            this.label21.Text = "Double-clique pour consulter / modifier";
+            // 
+            // label22
+            // 
+            this.label22.AutoSize = true;
+            this.label22.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label22.Location = new System.Drawing.Point(67, 735);
+            this.label22.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label22.Name = "label22";
+            this.label22.Size = new System.Drawing.Size(189, 13);
+            this.label22.TabIndex = 28;
+            this.label22.Text = "Double-clique pour consulter / modifier";
+            // 
             // frmDetailSalarie
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
-            this.ClientSize = new System.Drawing.Size(852, 871);
+            this.ClientSize = new System.Drawing.Size(858, 848);
+            this.Controls.Add(this.label22);
+            this.Controls.Add(this.label21);
             this.Controls.Add(this.dataGridView3);
             this.Controls.Add(this.label16);
             this.Controls.Add(this.label15);
@@ -355,6 +383,8 @@
             this.Controls.SetChildIndex(this.label15, 0);
             this.Controls.SetChildIndex(this.label16, 0);
             this.Controls.SetChildIndex(this.dataGridView3, 0);
+            this.Controls.SetChildIndex(this.label21, 0);
+            this.Controls.SetChildIndex(this.label22, 0);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.groupBox2.ResumeLayout(false);
@@ -397,5 +427,7 @@
         protected System.Windows.Forms.TextBox txtEcole;
         private System.Windows.Forms.Label label20;
         protected System.Windows.Forms.Label lblSalaire;
+        private System.Windows.Forms.Label label21;
+        private System.Windows.Forms.Label label22;
     }
 }
