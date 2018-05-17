@@ -159,6 +159,11 @@ namespace projetRHcreation
             // afficher le form détail en modal
             frmontra.ShowDialog();
         }
+
+        private void btnOK_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
  
