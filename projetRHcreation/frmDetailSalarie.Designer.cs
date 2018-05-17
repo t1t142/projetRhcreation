@@ -67,7 +67,7 @@
             // 
             // groupBox1
             // 
-            this.groupBox1.Location = new System.Drawing.Point(70, 62);
+            this.groupBox1.Location = new System.Drawing.Point(84, 60);
             this.groupBox1.Size = new System.Drawing.Size(746, 255);
             // 
             // groupBox2
@@ -122,7 +122,7 @@
             // 
             // btnEditer
             // 
-            this.btnEditer.Location = new System.Drawing.Point(-1, 88);
+            this.btnEditer.Location = new System.Drawing.Point(12, 86);
             this.btnEditer.Name = "btnEditer";
             this.btnEditer.Size = new System.Drawing.Size(65, 26);
             this.btnEditer.TabIndex = 4;
@@ -149,7 +149,7 @@
             this.dcType,
             this.dcQualification,
             this.dcService});
-            this.dataGridView2.Location = new System.Drawing.Point(70, 458);
+            this.dataGridView2.Location = new System.Drawing.Point(84, 458);
             this.dataGridView2.Name = "dataGridView2";
             this.dataGridView2.Size = new System.Drawing.Size(529, 104);
             this.dataGridView2.TabIndex = 17;
@@ -183,7 +183,7 @@
             // 
             this.label15.AutoSize = true;
             this.label15.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label15.Location = new System.Drawing.Point(67, 429);
+            this.label15.Location = new System.Drawing.Point(80, 426);
             this.label15.Name = "label15";
             this.label15.Size = new System.Drawing.Size(304, 20);
             this.label15.TabIndex = 18;
@@ -193,7 +193,7 @@
             // 
             this.label16.AutoSize = true;
             this.label16.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label16.Location = new System.Drawing.Point(67, 606);
+            this.label16.Location = new System.Drawing.Point(80, 605);
             this.label16.Name = "label16";
             this.label16.Size = new System.Drawing.Size(436, 20);
             this.label16.TabIndex = 19;
@@ -209,7 +209,7 @@
             this.dcTacheCollaborateur,
             this.dcDebutProjet,
             this.dcFinProjet});
-            this.dataGridView3.Location = new System.Drawing.Point(70, 641);
+            this.dataGridView3.Location = new System.Drawing.Point(84, 640);
             this.dataGridView3.Name = "dataGridView3";
             this.dataGridView3.ReadOnly = true;
             this.dataGridView3.Size = new System.Drawing.Size(529, 82);
@@ -248,7 +248,7 @@
             // chkDesactive
             // 
             this.chkDesactive.AutoSize = true;
-            this.chkDesactive.Location = new System.Drawing.Point(55, 388);
+            this.chkDesactive.Location = new System.Drawing.Point(84, 388);
             this.chkDesactive.Name = "chkDesactive";
             this.chkDesactive.Size = new System.Drawing.Size(288, 17);
             this.chkDesactive.TabIndex = 26;
@@ -336,7 +336,7 @@
             // 
             this.label21.AutoSize = true;
             this.label21.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label21.Location = new System.Drawing.Point(67, 574);
+            this.label21.Location = new System.Drawing.Point(81, 565);
             this.label21.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label21.Name = "label21";
             this.label21.Size = new System.Drawing.Size(189, 13);
@@ -347,7 +347,7 @@
             // 
             this.label22.AutoSize = true;
             this.label22.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label22.Location = new System.Drawing.Point(67, 735);
+            this.label22.Location = new System.Drawing.Point(81, 735);
             this.label22.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label22.Name = "label22";
             this.label22.Size = new System.Drawing.Size(189, 13);
