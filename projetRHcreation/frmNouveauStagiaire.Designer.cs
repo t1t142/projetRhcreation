@@ -50,7 +50,7 @@
             "CDI",
             "STAGE",
             "INTERIM"});
-            this.comboBox2.Text = "Stage";
+            this.comboBox2.Text = "";
             this.comboBox2.SelectedIndexChanged += new System.EventHandler(this.comboBox2_SelectedIndexChanged);
             this.comboBox2.SelectedValueChanged += new System.EventHandler(this.comboBox2_SelectedValueChanged);
             // 
@@ -66,6 +66,10 @@
             this.groupBox2.Controls.Add(this.label17);
             this.groupBox2.Size = new System.Drawing.Size(667, 225);
             this.groupBox2.Enter += new System.EventHandler(this.groupBox2_Enter);
+            this.groupBox2.Controls.SetChildIndex(this.label11, 0);
+            this.groupBox2.Controls.SetChildIndex(this.label9, 0);
+            this.groupBox2.Controls.SetChildIndex(this.label10, 0);
+            this.groupBox2.Controls.SetChildIndex(this.label14, 0);
             this.groupBox2.Controls.SetChildIndex(this.label12, 0);
             this.groupBox2.Controls.SetChildIndex(this.dateTimePicker1, 0);
             this.groupBox2.Controls.SetChildIndex(this.comboBox4, 0);
