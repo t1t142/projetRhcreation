@@ -56,7 +56,6 @@
             this.label20 = new System.Windows.Forms.Label();
             this.lblSalaire = new System.Windows.Forms.Label();
             this.label21 = new System.Windows.Forms.Label();
-            this.label22 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -343,22 +342,10 @@
             this.label21.TabIndex = 27;
             this.label21.Text = "Double-clique pour consulter / modifier";
             // 
-            // label22
-            // 
-            this.label22.AutoSize = true;
-            this.label22.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label22.Location = new System.Drawing.Point(81, 735);
-            this.label22.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(189, 13);
-            this.label22.TabIndex = 28;
-            this.label22.Text = "Double-clique pour consulter / modifier";
-            // 
             // frmDetailSalarie
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.ClientSize = new System.Drawing.Size(858, 848);
-            this.Controls.Add(this.label22);
             this.Controls.Add(this.label21);
             this.Controls.Add(this.dataGridView3);
             this.Controls.Add(this.label16);
@@ -384,7 +371,6 @@
             this.Controls.SetChildIndex(this.label16, 0);
             this.Controls.SetChildIndex(this.dataGridView3, 0);
             this.Controls.SetChildIndex(this.label21, 0);
-            this.Controls.SetChildIndex(this.label22, 0);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.groupBox2.ResumeLayout(false);
@@ -428,6 +414,5 @@
         private System.Windows.Forms.Label label20;
         protected System.Windows.Forms.Label lblSalaire;
         private System.Windows.Forms.Label label21;
-        private System.Windows.Forms.Label label22;
     }
 }

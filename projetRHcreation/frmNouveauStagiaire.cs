@@ -14,10 +14,10 @@ namespace projetRHcreation
         {
             InitializeComponent();
             label18.Visible = false;
-            comboBox6.Visible = false;
-            label15.Visible = false;
+            cbxmotif.Visible = false;
+            lblecole.Visible = false;
             txtEcole.Visible = false;
-            label16.Visible = false;
+            lblagence.Visible = false;
             textBox7.Visible = false;
         }
 
@@ -42,27 +42,28 @@ namespace projetRHcreation
             {
                
                 label18.Visible = false;
-                comboBox6.Visible = false;
-                label15.Visible = false;
+                cbxmotif.Visible = false;
+                lblecole.Visible = false;
                 txtEcole.Visible = false;
-                label16.Visible = false;
+                lblagence.Visible = false;
                 textBox7.Visible = false;
                 dateTimePicker2.Visible = true;
                 label17.Visible = true;
-                lblIndemnites.Text = "Salaire:";
+                lblIndemnites.Text = "Salaire brut mensuel :";
             }
             if (comboBox2.SelectedIndex ==1)//CDD
             {
                 
                 label18.Visible = true;
-                comboBox6.Visible = true;
-                label15.Visible = false;
+                cbxmotif.Visible = true;
+                lblecole.Visible = false;
                 txtEcole.Visible = false;
-                label16.Visible = false;
+                lblagence.Visible = false;
                 textBox7.Visible = false;
                 dateTimePicker2.Visible = true;
                 label17.Visible = true;
-                lblIndemnites.Text = "Salaire:";
+                lblIndemnites.Text = "Salaire brut mensuel :";
+                
             }
 
 
@@ -70,14 +71,14 @@ namespace projetRHcreation
             {
 
                 label18.Visible = false;
-                comboBox6.Visible = false;
-                label15.Visible = false;
+                cbxmotif.Visible = false;
+                lblecole.Visible = false;
                 txtEcole.Visible = false;
-                label16.Visible = false;
+                lblagence.Visible = false;
                 textBox7.Visible = false;
                 dateTimePicker2.Visible = false;
                 label17.Visible = false;
-                lblIndemnites.Text = "Salaire:";
+                lblIndemnites.Text = "Salaire brut mensuel :";
             }
 
 
@@ -85,28 +86,27 @@ namespace projetRHcreation
             {
 
                 label18.Visible = false;
-                comboBox6.Visible = false;
-                label15.Visible = true;
+                cbxmotif.Visible = false;
+                lblecole.Visible = true;
                 txtEcole.Visible = true;
-                label16.Visible = false;
+                lblagence.Visible = false;
                 textBox7.Visible = false;
                 dateTimePicker2.Visible = true;
                 label17.Visible = true;
-                lblIndemnites.Text = "indémenités:";
+                lblIndemnites.Text = "indemnités:";
             }
-            if (comboBox2.SelectedIndex == 4)//Stage
-            {
+            if (comboBox2.SelectedIndex == 4)//Interim
 
                 label18.Visible = false;
-                comboBox6.Visible = false;
-                label15.Visible = false;
+                cbxmotif.Visible = false;
+                lblecole.Visible = false;
                 txtEcole.Visible = false;
-                label16.Visible = true;
+                lblagence.Visible = true;
                 textBox7.Visible = true;
                 dateTimePicker2.Visible = true;
                 label17.Visible = true;
-                lblIndemnites.Text = "Salaire:";
+                lblIndemnites.Text = "Salaire brut mensuel :";
             }
         }
     }
-}
+

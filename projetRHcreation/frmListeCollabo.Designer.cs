@@ -40,7 +40,6 @@
             this.btnRechercher = new System.Windows.Forms.Button();
             this.btnTous = new System.Windows.Forms.Button();
             this.btnAjouter = new System.Windows.Forms.Button();
-            this.btnModifier = new System.Windows.Forms.Button();
             this.btnAnnuler = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.grdListe)).BeginInit();
@@ -57,7 +56,7 @@
             this.Qualification,
             this.Dates});
             this.grdListe.Location = new System.Drawing.Point(27, 96);
-            this.grdListe.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.grdListe.Margin = new System.Windows.Forms.Padding(2);
             this.grdListe.Name = "grdListe";
             this.grdListe.RowTemplate.Height = 24;
             this.grdListe.Size = new System.Drawing.Size(646, 202);
@@ -113,7 +112,7 @@
             // txtbRecherche
             // 
             this.txtbRecherche.Location = new System.Drawing.Point(103, 38);
-            this.txtbRecherche.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtbRecherche.Margin = new System.Windows.Forms.Padding(2);
             this.txtbRecherche.Name = "txtbRecherche";
             this.txtbRecherche.Size = new System.Drawing.Size(396, 20);
             this.txtbRecherche.TabIndex = 2;
@@ -121,7 +120,7 @@
             // btnRechercher
             // 
             this.btnRechercher.Location = new System.Drawing.Point(523, 37);
-            this.btnRechercher.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnRechercher.Margin = new System.Windows.Forms.Padding(2);
             this.btnRechercher.Name = "btnRechercher";
             this.btnRechercher.Size = new System.Drawing.Size(76, 22);
             this.btnRechercher.TabIndex = 3;
@@ -131,7 +130,7 @@
             // btnTous
             // 
             this.btnTous.Location = new System.Drawing.Point(616, 37);
-            this.btnTous.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnTous.Margin = new System.Windows.Forms.Padding(2);
             this.btnTous.Name = "btnTous";
             this.btnTous.Size = new System.Drawing.Size(56, 22);
             this.btnTous.TabIndex = 4;
@@ -140,8 +139,8 @@
             // 
             // btnAjouter
             // 
-            this.btnAjouter.Location = new System.Drawing.Point(386, 332);
-            this.btnAjouter.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnAjouter.Location = new System.Drawing.Point(499, 332);
+            this.btnAjouter.Margin = new System.Windows.Forms.Padding(2);
             this.btnAjouter.Name = "btnAjouter";
             this.btnAjouter.Size = new System.Drawing.Size(71, 22);
             this.btnAjouter.TabIndex = 5;
@@ -149,21 +148,10 @@
             this.btnAjouter.UseVisualStyleBackColor = true;
             this.btnAjouter.Click += new System.EventHandler(this.btnAjouter_Click);
             // 
-            // btnModifier
-            // 
-            this.btnModifier.Location = new System.Drawing.Point(478, 332);
-            this.btnModifier.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.btnModifier.Name = "btnModifier";
-            this.btnModifier.Size = new System.Drawing.Size(78, 22);
-            this.btnModifier.TabIndex = 6;
-            this.btnModifier.Text = "&Modifier";
-            this.btnModifier.UseVisualStyleBackColor = true;
-            this.btnModifier.Click += new System.EventHandler(this.btnModifier_Click);
-            // 
             // btnAnnuler
             // 
             this.btnAnnuler.Location = new System.Drawing.Point(574, 332);
-            this.btnAnnuler.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnAnnuler.Margin = new System.Windows.Forms.Padding(2);
             this.btnAnnuler.Name = "btnAnnuler";
             this.btnAnnuler.Size = new System.Drawing.Size(64, 22);
             this.btnAnnuler.TabIndex = 7;
@@ -188,14 +176,13 @@
             this.ClientSize = new System.Drawing.Size(704, 378);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btnAnnuler);
-            this.Controls.Add(this.btnModifier);
             this.Controls.Add(this.btnAjouter);
             this.Controls.Add(this.btnTous);
             this.Controls.Add(this.btnRechercher);
             this.Controls.Add(this.txtbRecherche);
             this.Controls.Add(this.lblRecherche);
             this.Controls.Add(this.grdListe);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "frmListeCollabo";
             this.Text = "Liste des collaborateurs";
             ((System.ComponentModel.ISupportInitialize)(this.grdListe)).EndInit();
@@ -218,7 +205,6 @@
         protected System.Windows.Forms.Button btnRechercher;
         protected System.Windows.Forms.Button btnTous;
         protected System.Windows.Forms.Button btnAjouter;
-        protected System.Windows.Forms.Button btnModifier;
         protected System.Windows.Forms.Button btnAnnuler;
     }
 }

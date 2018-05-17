@@ -32,10 +32,10 @@
             this.label17 = new System.Windows.Forms.Label();
             this.lblIndemnites = new System.Windows.Forms.Label();
             this.txtEcole = new System.Windows.Forms.TextBox();
-            this.label15 = new System.Windows.Forms.Label();
+            this.lblecole = new System.Windows.Forms.Label();
             this.textBox7 = new System.Windows.Forms.TextBox();
-            this.label16 = new System.Windows.Forms.Label();
-            this.comboBox6 = new System.Windows.Forms.ComboBox();
+            this.lblagence = new System.Windows.Forms.Label();
+            this.cbxmotif = new System.Windows.Forms.ComboBox();
             this.label18 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
@@ -58,9 +58,9 @@
             // 
             this.groupBox2.Controls.Add(this.textBox7);
             this.groupBox2.Controls.Add(this.label18);
-            this.groupBox2.Controls.Add(this.label16);
+            this.groupBox2.Controls.Add(this.lblagence);
             this.groupBox2.Controls.Add(this.txtEcole);
-            this.groupBox2.Controls.Add(this.label15);
+            this.groupBox2.Controls.Add(this.lblecole);
             this.groupBox2.Controls.Add(this.lblIndemnites);
             this.groupBox2.Controls.Add(this.dateTimePicker2);
             this.groupBox2.Controls.Add(this.label17);
@@ -80,9 +80,9 @@
             this.groupBox2.Controls.SetChildIndex(this.label17, 0);
             this.groupBox2.Controls.SetChildIndex(this.dateTimePicker2, 0);
             this.groupBox2.Controls.SetChildIndex(this.lblIndemnites, 0);
-            this.groupBox2.Controls.SetChildIndex(this.label15, 0);
+            this.groupBox2.Controls.SetChildIndex(this.lblecole, 0);
             this.groupBox2.Controls.SetChildIndex(this.txtEcole, 0);
-            this.groupBox2.Controls.SetChildIndex(this.label16, 0);
+            this.groupBox2.Controls.SetChildIndex(this.lblagence, 0);
             this.groupBox2.Controls.SetChildIndex(this.label18, 0);
             this.groupBox2.Controls.SetChildIndex(this.textBox7, 0);
             // 
@@ -119,14 +119,14 @@
             this.txtEcole.TabIndex = 32;
             this.txtEcole.Text = "Hogwarts";
             // 
-            // label15
+            // lblecole
             // 
-            this.label15.AutoSize = true;
-            this.label15.Location = new System.Drawing.Point(375, 51);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(40, 13);
-            this.label15.TabIndex = 31;
-            this.label15.Text = "Ecole :";
+            this.lblecole.AutoSize = true;
+            this.lblecole.Location = new System.Drawing.Point(375, 51);
+            this.lblecole.Name = "lblecole";
+            this.lblecole.Size = new System.Drawing.Size(40, 13);
+            this.lblecole.TabIndex = 31;
+            this.lblecole.Text = "Ecole :";
             // 
             // textBox7
             // 
@@ -136,23 +136,23 @@
             this.textBox7.TabIndex = 34;
             this.textBox7.Text = "Poudlard Power";
             // 
-            // label16
+            // lblagence
             // 
-            this.label16.AutoSize = true;
-            this.label16.Location = new System.Drawing.Point(375, 77);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(92, 13);
-            this.label16.TabIndex = 33;
-            this.label16.Text = "Agence d\'Interim :";
+            this.lblagence.AutoSize = true;
+            this.lblagence.Location = new System.Drawing.Point(375, 77);
+            this.lblagence.Name = "lblagence";
+            this.lblagence.Size = new System.Drawing.Size(92, 13);
+            this.lblagence.TabIndex = 33;
+            this.lblagence.Text = "Agence d\'Interim :";
             // 
-            // comboBox6
+            // cbxmotif
             // 
-            this.comboBox6.FormattingEnabled = true;
-            this.comboBox6.Location = new System.Drawing.Point(193, 502);
-            this.comboBox6.Name = "comboBox6";
-            this.comboBox6.Size = new System.Drawing.Size(200, 21);
-            this.comboBox6.TabIndex = 36;
-            this.comboBox6.Text = "Accroissement d\'Activité";
+            this.cbxmotif.FormattingEnabled = true;
+            this.cbxmotif.Location = new System.Drawing.Point(193, 502);
+            this.cbxmotif.Name = "cbxmotif";
+            this.cbxmotif.Size = new System.Drawing.Size(200, 21);
+            this.cbxmotif.TabIndex = 36;
+            this.cbxmotif.Text = "Accroissement d\'Activité";
             // 
             // label18
             // 
@@ -167,7 +167,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.ClientSize = new System.Drawing.Size(741, 653);
-            this.Controls.Add(this.comboBox6);
+            this.Controls.Add(this.cbxmotif);
             this.Name = "frmNouveauStagiaire";
             this.Load += new System.EventHandler(this.frmNouveauStagiaire_Load);
             this.Controls.SetChildIndex(this.label1, 0);
@@ -176,7 +176,7 @@
             this.Controls.SetChildIndex(this.groupBox2, 0);
             this.Controls.SetChildIndex(this.button1, 0);
             this.Controls.SetChildIndex(this.button2, 0);
-            this.Controls.SetChildIndex(this.comboBox6, 0);
+            this.Controls.SetChildIndex(this.cbxmotif, 0);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.groupBox2.ResumeLayout(false);
@@ -193,10 +193,10 @@
         private System.Windows.Forms.Label label17;
         protected System.Windows.Forms.Label lblIndemnites;
         protected System.Windows.Forms.TextBox txtEcole;
-        private System.Windows.Forms.Label label15;
+        private System.Windows.Forms.Label lblecole;
         protected System.Windows.Forms.TextBox textBox7;
-        private System.Windows.Forms.Label label16;
+        private System.Windows.Forms.Label lblagence;
         private System.Windows.Forms.Label label18;
-        protected System.Windows.Forms.ComboBox comboBox6;
+        protected System.Windows.Forms.ComboBox cbxmotif;
     }
 }
