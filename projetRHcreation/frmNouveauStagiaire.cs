@@ -47,7 +47,9 @@ namespace projetRHcreation
                 txtEcole.Visible = false;
                 label16.Visible = false;
                 textBox7.Visible = false;
-
+                dateTimePicker2.Visible = true;
+                label17.Visible = true;
+                lblIndemnites.Text = "Salaire:";
             }
             if (comboBox2.SelectedIndex ==1)//CDD
             {
@@ -58,7 +60,9 @@ namespace projetRHcreation
                 txtEcole.Visible = false;
                 label16.Visible = false;
                 textBox7.Visible = false;
-
+                dateTimePicker2.Visible = true;
+                label17.Visible = true;
+                lblIndemnites.Text = "Salaire:";
             }
 
 
@@ -71,7 +75,9 @@ namespace projetRHcreation
                 txtEcole.Visible = false;
                 label16.Visible = false;
                 textBox7.Visible = false;
-
+                dateTimePicker2.Visible = false;
+                label17.Visible = false;
+                lblIndemnites.Text = "Salaire:";
             }
 
 
@@ -84,7 +90,9 @@ namespace projetRHcreation
                 txtEcole.Visible = true;
                 label16.Visible = false;
                 textBox7.Visible = false;
-
+                dateTimePicker2.Visible = true;
+                label17.Visible = true;
+                lblIndemnites.Text = "indémenités:";
             }
             if (comboBox2.SelectedIndex == 4)//Stage
             {
@@ -95,7 +103,9 @@ namespace projetRHcreation
                 txtEcole.Visible = false;
                 label16.Visible = true;
                 textBox7.Visible = true;
-
+                dateTimePicker2.Visible = true;
+                label17.Visible = true;
+                lblIndemnites.Text = "Salaire:";
             }
         }
     }
