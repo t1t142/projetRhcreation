@@ -57,12 +57,6 @@
     <Compile Include="frmFenetreDeConnexion.Designer.cs">
       <DependentUpon>frmFenetreDeConnexion.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmConnexion.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frmConnexion.Designer.cs">
-      <DependentUpon>frmConnexion.cs</DependentUpon>
-    </Compile>
     <Compile Include="frmContrat.cs">
       <SubType>Form</SubType>
     </Compile>

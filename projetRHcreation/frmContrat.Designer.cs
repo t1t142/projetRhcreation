@@ -28,6 +28,12 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.lblMotif = new System.Windows.Forms.Label();
+            this.lblAgenceInterim = new System.Windows.Forms.Label();
+            this.lblEcole = new System.Windows.Forms.Label();
+            this.textBox7 = new System.Windows.Forms.TextBox();
+            this.textBox8 = new System.Windows.Forms.TextBox();
+            this.textBox9 = new System.Windows.Forms.TextBox();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -35,91 +41,200 @@
             // 
             // txtMatricule
             // 
-            this.txtMatricule.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtMatricule.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtMatricule.Visible = false;
             // 
             // textBox5
             // 
-            this.textBox5.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBox5.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             // 
             // textBox4
             // 
-            this.textBox4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBox4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             // 
             // textBox3
             // 
-            this.textBox3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBox3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             // 
             // textBox2
             // 
-            this.textBox2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBox2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             // 
             // textBox1
             // 
-            this.textBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             // 
             // textBox6
             // 
-            this.textBox6.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBox6.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             // 
             // comboBox1
             // 
-            this.comboBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.comboBox1.Margin = new System.Windows.Forms.Padding(2);
+            this.comboBox1.Size = new System.Drawing.Size(160, 24);
             // 
             // comboBox2
             // 
-            this.comboBox2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.comboBox2.Location = new System.Drawing.Point(208, 36);
+            this.comboBox2.Margin = new System.Windows.Forms.Padding(2);
+            this.comboBox2.Size = new System.Drawing.Size(160, 24);
             this.comboBox2.Visible = false;
             // 
             // comboBox3
             // 
-            this.comboBox3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.comboBox3.Location = new System.Drawing.Point(208, 134);
+            this.comboBox3.Margin = new System.Windows.Forms.Padding(2);
+            this.comboBox3.Size = new System.Drawing.Size(160, 24);
             this.comboBox3.Visible = false;
             // 
             // comboBox4
             // 
-            this.comboBox4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.comboBox4.Location = new System.Drawing.Point(208, 101);
+            this.comboBox4.Margin = new System.Windows.Forms.Padding(2);
+            this.comboBox4.Size = new System.Drawing.Size(160, 24);
             this.comboBox4.Visible = false;
             // 
             // dateTimePicker1
             // 
+            this.dateTimePicker1.Location = new System.Drawing.Point(208, 69);
             this.dateTimePicker1.Visible = false;
             // 
             // groupBox1
             // 
+            this.groupBox1.Size = new System.Drawing.Size(497, 151);
             this.groupBox1.Visible = false;
+            // 
+            // groupBox2
+            // 
+            this.groupBox2.Location = new System.Drawing.Point(23, 29);
+            this.groupBox2.Size = new System.Drawing.Size(732, 244);
+            this.groupBox2.Text = "Contrat";
             // 
             // comboBox5
             // 
-            this.comboBox5.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.comboBox5.Location = new System.Drawing.Point(208, 168);
+            this.comboBox5.Margin = new System.Windows.Forms.Padding(2);
+            this.comboBox5.Size = new System.Drawing.Size(160, 24);
             this.comboBox5.Visible = false;
             // 
             // txtSalaire
             // 
-            this.txtSalaire.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtSalaire.Location = new System.Drawing.Point(208, 200);
+            this.txtSalaire.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtSalaire.Visible = false;
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(629, 538);
-            this.button2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button2.Location = new System.Drawing.Point(655, 450);
+            this.button2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(548, 538);
-            this.button1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button1.Location = new System.Drawing.Point(547, 450);
+            this.button1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             // 
             // pictureBox1
             // 
+            this.pictureBox1.Location = new System.Drawing.Point(584, 46);
             this.pictureBox1.Visible = false;
+            // 
+            // label12
+            // 
+            this.label12.Location = new System.Drawing.Point(40, 74);
+            // 
+            // label1
+            // 
+            this.label1.Visible = false;
+            // 
+            // label9
+            // 
+            this.label9.Location = new System.Drawing.Point(40, 39);
+            // 
+            // label10
+            // 
+            this.label10.Location = new System.Drawing.Point(40, 137);
+            // 
+            // label11
+            // 
+            this.label11.Location = new System.Drawing.Point(40, 104);
+            // 
+            // label14
+            // 
+            this.label14.Location = new System.Drawing.Point(40, 171);
+            // 
+            // lblMotif
+            // 
+            this.lblMotif.AutoSize = true;
+            this.lblMotif.Location = new System.Drawing.Point(150, 293);
+            this.lblMotif.Name = "lblMotif";
+            this.lblMotif.Size = new System.Drawing.Size(38, 17);
+            this.lblMotif.TabIndex = 17;
+            this.lblMotif.Text = "Motif";
+            // 
+            // lblAgenceInterim
+            // 
+            this.lblAgenceInterim.AutoSize = true;
+            this.lblAgenceInterim.Location = new System.Drawing.Point(150, 345);
+            this.lblAgenceInterim.Name = "lblAgenceInterim";
+            this.lblAgenceInterim.Size = new System.Drawing.Size(113, 17);
+            this.lblAgenceInterim.TabIndex = 18;
+            this.lblAgenceInterim.Text = "Agence d\'intérim";
+            // 
+            // lblEcole
+            // 
+            this.lblEcole.AutoSize = true;
+            this.lblEcole.Location = new System.Drawing.Point(150, 397);
+            this.lblEcole.Name = "lblEcole";
+            this.lblEcole.Size = new System.Drawing.Size(43, 17);
+            this.lblEcole.TabIndex = 19;
+            this.lblEcole.Text = "Ecole";
+            // 
+            // textBox7
+            // 
+            this.textBox7.Location = new System.Drawing.Point(313, 293);
+            this.textBox7.Name = "textBox7";
+            this.textBox7.Size = new System.Drawing.Size(233, 22);
+            this.textBox7.TabIndex = 20;
+            // 
+            // textBox8
+            // 
+            this.textBox8.Location = new System.Drawing.Point(313, 348);
+            this.textBox8.Name = "textBox8";
+            this.textBox8.Size = new System.Drawing.Size(233, 22);
+            this.textBox8.TabIndex = 21;
+            // 
+            // textBox9
+            // 
+            this.textBox9.Location = new System.Drawing.Point(313, 397);
+            this.textBox9.Name = "textBox9";
+            this.textBox9.Size = new System.Drawing.Size(233, 22);
+            this.textBox9.TabIndex = 22;
             // 
             // frmContrat
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
-            this.ClientSize = new System.Drawing.Size(723, 582);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.ClientSize = new System.Drawing.Size(783, 508);
+            this.Controls.Add(this.textBox9);
+            this.Controls.Add(this.textBox8);
+            this.Controls.Add(this.textBox7);
+            this.Controls.Add(this.lblEcole);
+            this.Controls.Add(this.lblAgenceInterim);
+            this.Controls.Add(this.lblMotif);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "frmContrat";
             this.Text = "Ajout / modification de contrat de travail";
+            this.Controls.SetChildIndex(this.label1, 0);
+            this.Controls.SetChildIndex(this.txtMatricule, 0);
+            this.Controls.SetChildIndex(this.groupBox1, 0);
+            this.Controls.SetChildIndex(this.groupBox2, 0);
+            this.Controls.SetChildIndex(this.button1, 0);
+            this.Controls.SetChildIndex(this.button2, 0);
+            this.Controls.SetChildIndex(this.lblMotif, 0);
+            this.Controls.SetChildIndex(this.lblAgenceInterim, 0);
+            this.Controls.SetChildIndex(this.lblEcole, 0);
+            this.Controls.SetChildIndex(this.textBox7, 0);
+            this.Controls.SetChildIndex(this.textBox8, 0);
+            this.Controls.SetChildIndex(this.textBox9, 0);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.groupBox2.ResumeLayout(false);
@@ -131,5 +246,11 @@
         }
 
         #endregion
+        private System.Windows.Forms.Label lblMotif;
+        private System.Windows.Forms.Label lblAgenceInterim;
+        private System.Windows.Forms.Label lblEcole;
+        private System.Windows.Forms.TextBox textBox7;
+        private System.Windows.Forms.TextBox textBox8;
+        private System.Windows.Forms.TextBox textBox9;
     }
 }
