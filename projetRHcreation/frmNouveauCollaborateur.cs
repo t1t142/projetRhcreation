@@ -31,5 +31,10 @@ namespace projetRHcreation
         {
 
         }
+
+        private void frmNouveauCollaborateur_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
