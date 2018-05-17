@@ -96,7 +96,7 @@ namespace projetRHcreation
                 lblIndemnites.Text = "indemnités:";
             }
             if (comboBox2.SelectedIndex == 4)//Interim
-
+            { 
                 label18.Visible = false;
                 cbxmotif.Visible = false;
                 lblecole.Visible = false;
@@ -109,4 +109,4 @@ namespace projetRHcreation
             }
         }
     }
-
+}
