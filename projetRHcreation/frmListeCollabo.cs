@@ -31,7 +31,7 @@ namespace projetRHcreation
 
         private void btnAjouter_Click(object sender, EventArgs e)
         {
-            frmNouveauCollabCDD frmDetail = new frmNouveauCollabCDD();
+            frmNouveauStagiaire frmDetail = new frmNouveauStagiaire();
             // afficher le form détail en modal
             frmDetail.ShowDialog();
         }
