@@ -81,7 +81,7 @@
             // txtMatricule
             // 
             this.txtMatricule.Location = new System.Drawing.Point(153, 33);
-            this.txtMatricule.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtMatricule.Margin = new System.Windows.Forms.Padding(4);
             this.txtMatricule.Name = "txtMatricule";
             this.txtMatricule.Size = new System.Drawing.Size(132, 22);
             this.txtMatricule.TabIndex = 1;
@@ -105,9 +105,9 @@
             this.groupBox1.Controls.Add(this.label3);
             this.groupBox1.Controls.Add(this.label2);
             this.groupBox1.Location = new System.Drawing.Point(49, 76);
-            this.groupBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(4);
             this.groupBox1.Size = new System.Drawing.Size(889, 314);
             this.groupBox1.TabIndex = 2;
             this.groupBox1.TabStop = false;
@@ -127,7 +127,7 @@
             // 
             this.comboBox1.FormattingEnabled = true;
             this.comboBox1.Location = new System.Drawing.Point(149, 254);
-            this.comboBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.comboBox1.Margin = new System.Windows.Forms.Padding(4);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(160, 24);
             this.comboBox1.TabIndex = 13;
@@ -136,7 +136,7 @@
             // textBox6
             // 
             this.textBox6.Location = new System.Drawing.Point(104, 197);
-            this.textBox6.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox6.Margin = new System.Windows.Forms.Padding(4);
             this.textBox6.Name = "textBox6";
             this.textBox6.Size = new System.Drawing.Size(435, 22);
             this.textBox6.TabIndex = 12;
@@ -145,7 +145,7 @@
             // textBox5
             // 
             this.textBox5.Location = new System.Drawing.Point(104, 165);
-            this.textBox5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox5.Margin = new System.Windows.Forms.Padding(4);
             this.textBox5.Name = "textBox5";
             this.textBox5.Size = new System.Drawing.Size(157, 22);
             this.textBox5.TabIndex = 11;
@@ -154,7 +154,7 @@
             // textBox4
             // 
             this.textBox4.Location = new System.Drawing.Point(104, 133);
-            this.textBox4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox4.Margin = new System.Windows.Forms.Padding(4);
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(435, 22);
             this.textBox4.TabIndex = 10;
@@ -163,7 +163,7 @@
             // textBox3
             // 
             this.textBox3.Location = new System.Drawing.Point(104, 101);
-            this.textBox3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox3.Margin = new System.Windows.Forms.Padding(4);
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(435, 22);
             this.textBox3.TabIndex = 9;
@@ -172,7 +172,7 @@
             // textBox2
             // 
             this.textBox2.Location = new System.Drawing.Point(104, 69);
-            this.textBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox2.Margin = new System.Windows.Forms.Padding(4);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(244, 22);
             this.textBox2.TabIndex = 8;
@@ -181,7 +181,7 @@
             // textBox1
             // 
             this.textBox1.Location = new System.Drawing.Point(104, 37);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(4);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(435, 22);
             this.textBox1.TabIndex = 7;
@@ -192,7 +192,7 @@
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
             this.pictureBox1.InitialImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.InitialImage")));
             this.pictureBox1.Location = new System.Drawing.Point(717, 41);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(133, 123);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -274,7 +274,7 @@
             // 
             this.comboBox2.FormattingEnabled = true;
             this.comboBox2.Location = new System.Drawing.Point(208, 55);
-            this.comboBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.comboBox2.Margin = new System.Windows.Forms.Padding(4);
             this.comboBox2.Name = "comboBox2";
             this.comboBox2.Size = new System.Drawing.Size(160, 24);
             this.comboBox2.TabIndex = 4;
@@ -295,7 +295,7 @@
             // 
             this.comboBox3.FormattingEnabled = true;
             this.comboBox3.Location = new System.Drawing.Point(208, 122);
-            this.comboBox3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.comboBox3.Margin = new System.Windows.Forms.Padding(4);
             this.comboBox3.Name = "comboBox3";
             this.comboBox3.Size = new System.Drawing.Size(160, 24);
             this.comboBox3.TabIndex = 6;
@@ -315,7 +315,7 @@
             // 
             this.comboBox4.FormattingEnabled = true;
             this.comboBox4.Location = new System.Drawing.Point(208, 89);
-            this.comboBox4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.comboBox4.Margin = new System.Windows.Forms.Padding(4);
             this.comboBox4.Name = "comboBox4";
             this.comboBox4.Size = new System.Drawing.Size(160, 24);
             this.comboBox4.TabIndex = 8;
@@ -334,7 +334,7 @@
             // dateTimePicker1
             // 
             this.dateTimePicker1.Location = new System.Drawing.Point(208, 23);
-            this.dateTimePicker1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dateTimePicker1.Margin = new System.Windows.Forms.Padding(4);
             this.dateTimePicker1.Name = "dateTimePicker1";
             this.dateTimePicker1.Size = new System.Drawing.Size(265, 22);
             this.dateTimePicker1.TabIndex = 10;
@@ -363,9 +363,9 @@
             this.groupBox2.Controls.Add(this.label11);
             this.groupBox2.Controls.Add(this.label12);
             this.groupBox2.Location = new System.Drawing.Point(49, 398);
-            this.groupBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox2.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox2.Padding = new System.Windows.Forms.Padding(4);
             this.groupBox2.Size = new System.Drawing.Size(889, 236);
             this.groupBox2.TabIndex = 12;
             this.groupBox2.TabStop = false;
@@ -374,7 +374,7 @@
             // txtSalaire
             // 
             this.txtSalaire.Location = new System.Drawing.Point(208, 188);
-            this.txtSalaire.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtSalaire.Margin = new System.Windows.Forms.Padding(4);
             this.txtSalaire.Name = "txtSalaire";
             this.txtSalaire.Size = new System.Drawing.Size(132, 22);
             this.txtSalaire.TabIndex = 25;
@@ -384,7 +384,7 @@
             // 
             this.comboBox5.FormattingEnabled = true;
             this.comboBox5.Location = new System.Drawing.Point(208, 156);
-            this.comboBox5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.comboBox5.Margin = new System.Windows.Forms.Padding(4);
             this.comboBox5.Name = "comboBox5";
             this.comboBox5.Size = new System.Drawing.Size(160, 24);
             this.comboBox5.TabIndex = 13;
@@ -403,7 +403,7 @@
             // button2
             // 
             this.button2.Location = new System.Drawing.Point(839, 761);
-            this.button2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button2.Margin = new System.Windows.Forms.Padding(4);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(100, 28);
             this.button2.TabIndex = 16;
@@ -413,7 +413,7 @@
             // button1
             // 
             this.button1.Location = new System.Drawing.Point(731, 761);
-            this.button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button1.Margin = new System.Windows.Forms.Padding(4);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(100, 28);
             this.button1.TabIndex = 15;
@@ -431,7 +431,7 @@
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.txtMatricule);
             this.Controls.Add(this.label1);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "frmNouveauCollaborateur";
             this.Text = "Saisie d\'un nouveau collaborateur";
             this.groupBox1.ResumeLayout(false);
@@ -452,8 +452,6 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.Label label10;
         protected System.Windows.Forms.TextBox txtMatricule;
         protected System.Windows.Forms.TextBox textBox5;
         protected System.Windows.Forms.TextBox textBox4;
@@ -464,13 +462,11 @@
         protected System.Windows.Forms.ComboBox comboBox1;
         protected System.Windows.Forms.ComboBox comboBox2;
         protected System.Windows.Forms.ComboBox comboBox3;
-        private System.Windows.Forms.Label label11;
         protected System.Windows.Forms.ComboBox comboBox4;
         protected System.Windows.Forms.DateTimePicker dateTimePicker1;
         private System.Windows.Forms.Label label13;
         protected System.Windows.Forms.GroupBox groupBox1;
         protected System.Windows.Forms.GroupBox groupBox2;
-        private System.Windows.Forms.Label label14;
         protected System.Windows.Forms.ComboBox comboBox5;
         protected System.Windows.Forms.TextBox txtSalaire;
         protected System.Windows.Forms.Button button2;
@@ -478,5 +474,9 @@
         protected System.Windows.Forms.PictureBox pictureBox1;
         protected System.Windows.Forms.Label label12;
         protected System.Windows.Forms.Label label1;
+        protected System.Windows.Forms.Label label9;
+        protected System.Windows.Forms.Label label10;
+        protected System.Windows.Forms.Label label11;
+        protected System.Windows.Forms.Label label14;
     }
 }
