@@ -69,6 +69,7 @@
             this.changerDutlisateurToolStripMenuItem.Name = "changerDutlisateurToolStripMenuItem";
             this.changerDutlisateurToolStripMenuItem.Size = new System.Drawing.Size(181, 22);
             this.changerDutlisateurToolStripMenuItem.Text = "&Changer d\'utlisateur";
+            this.changerDutlisateurToolStripMenuItem.Click += new System.EventHandler(this.changerDutlisateurToolStripMenuItem_Click);
             // 
             // déconnexionToolStripMenuItem
             // 

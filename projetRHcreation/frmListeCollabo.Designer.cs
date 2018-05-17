@@ -61,7 +61,7 @@
             this.grdListe.RowTemplate.Height = 24;
             this.grdListe.Size = new System.Drawing.Size(646, 202);
             this.grdListe.TabIndex = 0;
-            this.grdListe.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.grdListe_CellContentClick);
+            this.grdListe.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.grdListe_CellDoubleClick);
             // 
             // Service
             // 

@@ -17,17 +17,14 @@ namespace projetRHcreation
             InitializeComponent();
         }
 
-        private void grdListe_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
-
-        }
-
-        private void btnModifier_Click(object sender, EventArgs e)
+        private void grdListe_CellDoubleClick(object sender, DataGridViewCellEventArgs e)
         {
             frmDetailSalarie frmDetail = new frmDetailSalarie();
             // afficher le form détail en modal
             frmDetail.ShowDialog();
         }
+
+       
 
         private void btnAjouter_Click(object sender, EventArgs e)
         {

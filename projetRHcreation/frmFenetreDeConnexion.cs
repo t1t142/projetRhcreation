@@ -10,14 +10,19 @@ using System.Windows.Forms;
 
 namespace projetRHcreation
 {
-    public partial class FenetreDeConnexion : Form
+    public partial class frmFenetreDeConnexion : Form
     {
-        public FenetreDeConnexion()
+        public frmFenetreDeConnexion()
         {
             InitializeComponent();
         }
 
         private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void FenetreDeConnexion_Load(object sender, EventArgs e)
         {
 
         }

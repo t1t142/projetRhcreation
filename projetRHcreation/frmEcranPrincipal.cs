@@ -15,7 +15,7 @@ namespace projetRHcreation
        
         private frmListeCollabo frmListeCollabo;
         private frmDetailSalarie frmDetailSalarie;
-
+        private frmFenetreDeConnexion frmConnex;
 
 
 
@@ -101,6 +101,19 @@ namespace projetRHcreation
             }
 
 
+
+        }
+
+        private void changerDutlisateurToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+           
+
+            frmConnex = new frmFenetreDeConnexion(); // instancie le form                 
+                                                          // implémente un événement sur le nouveau form                  
+                                                          // pour libérer la ref à ce form               
+           
+           
+            this.frmConnex.Show();
 
         }
     }

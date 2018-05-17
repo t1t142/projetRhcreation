@@ -1,6 +1,6 @@
 ﻿namespace projetRHcreation
 {
-    partial class FenetreDeConnexion
+    partial class frmFenetreDeConnexion
     {
         /// <summary>
         /// Required designer variable.
@@ -100,6 +100,7 @@
             this.Controls.Add(this.lblIdentifiant);
             this.Name = "FenetreDeConnexion";
             this.Text = "Fenetre de connexion";
+            this.Load += new System.EventHandler(this.FenetreDeConnexion_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
